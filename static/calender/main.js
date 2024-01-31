@@ -14436,7 +14436,8 @@ var FullCalendar = (function (exports) {
             end: item.end.dateTime || item.end.date,
             url: url,
             location: item.location,
-            description: item.description,
+            divison: item.division,
+            room : item.room,
             attachments: item.attachments || [],
             extendedProps: (item.extendedProperties || {}).shared || {},
         };
